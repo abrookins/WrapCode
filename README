@@ -5,3 +5,8 @@ The width is configurable as a user setting and defaults to 80. Unlike the
 built-in "Wrap" command, "Wrap Code" is intelligent. If a wrapped line was
 commented-out, new lines will begin with the same comment character. They will
 also indent to the same level as the original line.
+
+This plugin is copyright (c) 2012, Andrew Brookins <a@andrewbrookins.com>.
+
+However, it relies heavily on the `codewrap.py` module, which is copyright (c)
+2006, Nir Soffer <nirs@freeshell.org>.
