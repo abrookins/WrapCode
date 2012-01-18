@@ -1,7 +1,7 @@
 [
-	{
-		"keys": ["g", "q"],
-		"command": "wrap_code",
-		"context": [{"key": "setting.command_mode"}]
-	}
+    {
+        "keys": ["g", "q"],
+        "command": "wrap_code",
+        "context": [{"key": "setting.command_mode"}]
+    }
 ]
