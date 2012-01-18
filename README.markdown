@@ -1,22 +1,27 @@
-# "Wrap Code" Plugin for Sublime Text 2
+# Wrap Code Plugin for Sublime Text 2
 
 This plugin makes a "Wrap Code" command available in Sublime Text 2 that wraps
 selected text to a certain width.
 
-Unlike the built-in "Wrap" command, "Wrap Code" is intelligent. If a
+Unlike the built-in "Wrap" command, Wrap Code is intelligent. If a
 wrapped line was commented-out, new lines will begin with the same comment
 character. They will also indent to the same level as the original line.
 
-## Configuration
+## Menu Item
 
-The width is configurable via the "wrapcode_column" setting and defaults to 80
-characters. Unlike the built-in "Wrap" command, "Wrap Code" is intelligent. If a
+You can use the Wrap Code command via the Sublime Text 2 menu by selecting the
+text you want to wrap, then clicking Edit -> Wrap Code.
 
-## Key bindings
+## Key Binding 
 
 Wrap Code includes a Vintage mode key binding by default -- the same as the
 "reformat" operation in Vim. In command mode, highlight the text you want to
 wrap, then press the "gq" keys.
+
+## Configuration
+
+The width to which text is wrapped is configurable via the "wrapcode_column"
+setting and defaults to 80 characters.
 
 ## Copyright
 
