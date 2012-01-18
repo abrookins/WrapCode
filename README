@@ -8,5 +8,5 @@ also indent to the same level as the original line.
 
 This plugin is copyright (c) 2012, Andrew Brookins <a@andrewbrookins.com>.
 
-However, it relies heavily on the `codewrap.py` module, which is copyright (c)
-2006, Nir Soffer <nirs@freeshell.org>.
+However, it relies heavily on the included `codewrap.py` module, which is
+copyright (c) 2006, Nir Soffer <nirs@freeshell.org>.
