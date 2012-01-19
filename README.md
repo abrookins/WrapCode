@@ -31,4 +31,7 @@ setting and defaults to 80 characters.
 
 ## Copyright
 
-Copyright (c) 2012, Andrew Brookins <a@andrewbrookins.com>.
+Copyright (c) 2012 by Andrew Brookins <a@andrewbrookins.com>.
+
+The included `codewrap.py` module is copyright (c) by 2006 Nir Soffer
+<nirs@freeshell.org>
