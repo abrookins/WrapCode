@@ -3,19 +3,15 @@
 This plugin makes a "Wrap Code" command available in Sublime Text 2 that wraps
 selected text to a certain width.
 
-Unlike the built-in "Wrap" command, Wrap Code is intelligent. If a
-wrapped line was commented-out, new lines will begin with the same comment
-character. They will also indent to the same level as the original line.
+Unlike the built-in "Wrap" command, Wrap Code is intelligent. If a wrapped line
+was commented-out, new lines will begin with the same comment character. They
+will also indent to the same level as the original line.
 
 ## Installing
 
 Clone the repo and place the included files in a `wrapcode` directory in the
 Packages directory for your Sublime Text 2 install. On OS X, this is
 `~/Library/Application Support/Sublime Text 2/Packages/`.
-
-The plugin relies on the `codewrap` module developed by Nir Soffer. Install it
-with pip by running `pip install -r requirements.txt` either into your system
-Python or a virtualenv.
 
 ## Menu Item
 
