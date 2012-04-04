@@ -10,6 +10,8 @@ class WrapCodeCommand(sublime_plugin.TextCommand):
             width=col, indent_re=r'^\s*(#+|\*|//+|;+)?\s*')
 
         for region in sel:
+            if region.empty():
+                region = self.view.line(region)
             wrapped = wrapper.fillParagraphs(self.view.substr(region))
             self.view.replace(edit, region, wrapped)
             
