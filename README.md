@@ -18,6 +18,9 @@ Packages directory for your Sublime Text 2 install. On OS X, this is
 You can use the Wrap Code command via the Sublime Text 2 menu by selecting the
 text you want to wrap, then clicking Edit -> Wrap Code.
 
+You also call it by bringing up the Command Palette and selecting "Wrap
+Code".
+
 ## Key Binding 
 
 Wrap Code includes a Vintage mode key binding by default -- the same as the
