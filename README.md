@@ -1,6 +1,6 @@
-# Wrap Code Plugin for Sublime Text 2
+# Wrap Code Plugin for Sublime Text 2 and 3
 
-This plugin makes a "Wrap Code" command available in Sublime Text 2 that wraps
+This plugin makes a "Wrap Code" command available in Sublime Text that wraps
 selected text to a certain width.
 
 Unlike the built-in "Wrap" command, Wrap Code is intelligent. If a wrapped line
@@ -9,9 +9,10 @@ will also indent to the same level as the original line.
 
 ## Installing
 
-Clone the repo and place the included files in a `wrapcode` directory in the
-Packages directory for your Sublime Text 2 install. On OS X, this is
-`~/Library/Application Support/Sublime Text 2/Packages/`.
+Clone the repo and place the included files in a `WrapCode` directory in the
+Packages directory for your Sublime Text install. On OS X, this is
+`~/Library/Application Support/Sublime Text 2/Packages/` or
+`~/Library/Application Support/Sublime Text 3/Packages/`.
 
 ## Menu Item
 
@@ -21,7 +22,7 @@ text you want to wrap, then clicking Edit -> Wrap Code.
 You also call it by bringing up the Command Palette and selecting "Wrap
 Code".
 
-## Key Binding 
+## Key Binding
 
 Wrap Code includes a Vintage mode key binding by default -- the same as the
 "reformat" operation in Vim. In command mode, highlight the text you want to
