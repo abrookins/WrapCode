@@ -1,6 +1,8 @@
 import sublime_plugin
-import codewrap
-
+try:
+    import WrapCode.codewrap as codewrap
+except ImportError:
+    import codewrap
 
 class WrapCodeCommand(sublime_plugin.TextCommand):
     def run(self, edit):
